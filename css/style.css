@@ -1,0 +1,120 @@
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    color: palevioletred;
+}
+
+h2{
+    font-size: 2rem;
+    color: plum;
+}
+
+p{
+    color: gainsboro;
+}
+
+header, nav{
+    /* Set padding and margin */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1rem;
+    
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    background-color: purple;
+    padding: 10px;
+    color: aliceblue;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img{
+    width: 50%;
+    padding-bottom: 40px;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 20px;
+}
+
+img.main-pic{
+    width: auto;
+    padding-bottom: 40px;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 20px;
+    
+}
+
+img.literature:hover{
+    filter: grayscale(100%);
+}
+
+img.main-pic:hover{
+    filter: grayscale(100%);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    
+}
+
+a{
+    color: pink;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.wrapper{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.column {
+    padding: 20px;
+  }
+
+
+hr{
+    color: white;
+}
